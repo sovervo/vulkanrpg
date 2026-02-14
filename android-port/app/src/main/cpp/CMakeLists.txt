@@ -16,8 +16,6 @@ find_library(vulkan-lib vulkan)
 
 target_include_directories(native-lib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 
-target_compile_definitions(native-lib PRIVATE VK_USE_PLATFORM_ANDROID_KHR=1)
-
 target_link_libraries(native-lib
     ${log-lib}
     ${android-lib}

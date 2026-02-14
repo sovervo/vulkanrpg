@@ -1,13 +1,7 @@
 #pragma once
 
 #include <android/native_window.h>
-
-#ifndef VK_USE_PLATFORM_ANDROID_KHR
-#define VK_USE_PLATFORM_ANDROID_KHR 1
-#endif
-
 #include <vulkan/vulkan.h>
-#include <vulkan/vulkan_android.h>
 #include <vector>
 
 class VulkanContext {
