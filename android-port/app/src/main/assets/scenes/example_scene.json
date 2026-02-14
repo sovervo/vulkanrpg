@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "camera": { "x": 0, "y": 0, "zoom": 1.0 },
+  "sprites": [
+    {
+      "id": "hero",
+      "texture": "textures/hero.png",
+      "position": { "x": 160, "y": 120 },
+      "scale": { "x": 1.0, "y": 1.0 },
+      "rotationDeg": 15.0
+    }
+  ]
+}
